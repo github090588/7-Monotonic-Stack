@@ -1,0 +1,9 @@
+res = 1
+
+while self.stack and self.stack[-1][0] <= price:
+  res += self.stack.pop()[1]
+ 
+self.stack.append([price, res])
+
+
+That is, we need to add a list [price, res] to record the previous result, so that it will not always reset to 0.
