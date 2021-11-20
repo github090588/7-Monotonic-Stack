@@ -1,2 +1,4 @@
-1. need to maintain the index, not the num.
+1. need to loop the index, not the num.
+
+2. res = [0] * len(temperatures)
 
