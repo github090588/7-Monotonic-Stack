@@ -8,3 +8,5 @@
 
 5. width = i - stack[-1] - 1
 
+6. note if not stack: break. This is because, later, we need to find stack[-1] as left height
+
