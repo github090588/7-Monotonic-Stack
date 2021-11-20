@@ -8,5 +8,6 @@
 
 5. width = i - stack[-1] - 1
 
-6. note if not stack: break. This is because, later, we need to find stack[-1] as left height
+6. note if not stack: break. This is because, later, we need to find stack[-1] as left height, and there is no water with for example 1, 2,b ecause left is empty
+and can not trap water.
 
